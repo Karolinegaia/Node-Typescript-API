@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test: staged" : "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +28,7 @@
   "dependencies": {
     "-": "^0.0.1",
     "D": "^1.0.0",
-    "lint-staged": "^13.2.3"
+    "lint-staged": "^13.2.3",
+    "ts-node-dev": "^2.0.0"
   }
 }
