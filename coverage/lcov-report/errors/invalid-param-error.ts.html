@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for errors/missing-param-error.ts</title>
+    <title>Code coverage report for errors/invalid-param-error.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">errors</a> missing-param-error.ts</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">errors</a> invalid-param-error.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -71,14 +71,14 @@
 <a name='L6'></a><a href='#L6'>6</a>
 <a name='L7'></a><a href='#L7'>7</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export class MissingParamError extends Error {
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export class InvalidParamError extends Error {
   constructor (paramName: string) {
-    super(`Misssing param: ${paramName}`)
-    this.name = 'MissingParamError'
+    super(`Ivalid param: ${paramName}`)
+    this.name = 'InvalidParamError'
   }
 }
 &nbsp;</pre></td></tr></table></pre>

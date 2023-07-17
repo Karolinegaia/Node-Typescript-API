@@ -1,12 +1,28 @@
 import { SignupController } from './signup'
 import { MissingParamError } from '../errors/missing-param-error'
+import { InvalidParamError } from '../errors/invalid-param-error'
+import { type EmailValidator } from '../protocols/validator-email'
 
-const makeSut = (): SignupController => {
-  return new SignupController()
+interface SutTypes {
+  sut: SignupController
+  emailValidatorStub: EmailValidator
+}
+const makeSut = (): SutTypes => {
+  class EmailValidatorStub implements EmailValidator {
+    isValid (email: string): boolean {
+      return true
+    }
+  }
+  const emailValidatorStub = new EmailValidatorStub()
+  const sut = new SignupController(emailValidatorStub)
+  return {
+    sut,
+    emailValidatorStub
+  }
 }
 describe('Signup Controller', () => {
   test('Shold return 400 if  no name is provided', () => {
-    const sut = makeSut()
+    const { sut } = makeSut()
     const httpRequest = {
       body: {
         email: 'teste@teste.com',
@@ -19,7 +35,8 @@ describe('Signup Controller', () => {
     expect(httpResponse.body).toEqual(new MissingParamError('name'))
   })
   test('Shold return 400 if  no email is provided', () => {
-    const sut = makeSut()
+    const { sut, emailValidatorStub } = makeSut()
+    jest.spyOn(emailValidatorStub, 'isValid').mockReturnValueOnce(false)
     const httpRequest = {
       body: {
         name: 'karol',
@@ -29,10 +46,10 @@ describe('Signup Controller', () => {
     }
     const httpResponse = sut.handle(httpRequest)
     expect(httpResponse.statusCode).toBe(400)
-    expect(httpResponse.body).toEqual(new MissingParamError('email'))
+    expect(httpResponse.body).toEqual(new InvalidParamError('email'))
   })
   test('Shold return 400 if  no password is provided', () => {
-    const sut = makeSut()
+    const { sut } = makeSut()
     const httpRequest = {
       body: {
         name: 'karol',
@@ -45,7 +62,7 @@ describe('Signup Controller', () => {
     expect(httpResponse.body).toEqual(new MissingParamError('password'))
   })
   test('Shold return 400 if  no password Confirmation is provided', () => {
-    const sut = makeSut()
+    const { sut } = makeSut()
     const httpRequest = {
       body: {
         name: 'karol',
