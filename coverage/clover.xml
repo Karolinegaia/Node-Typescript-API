@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1689626257729" clover="3.2.0">
-  <project timestamp="1689626257729" name="All files">
-    <metrics statements="18" coveredstatements="15" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4" elements="24" coveredelements="20" complexity="0" loc="18" ncloc="18" packages="2" files="3" classes="3"/>
+<coverage generated="1689859727021" clover="3.2.0">
+  <project timestamp="1689859727021" name="All files">
+    <metrics statements="18" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4" elements="24" coveredelements="22" complexity="0" loc="18" ncloc="18" packages="2" files="3" classes="3"/>
     <package name="controllers">
-      <metrics statements="12" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="signup.ts" path="/Users/karol/Documents/Aula/src/presentation/controllers/signup.ts">
-        <metrics statements="12" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
-        <line num="17" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="4" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="18" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="23" count="0" type="stmt"/>
       </file>
     </package>
@@ -31,8 +31,8 @@
       <file name="missing-param-error.ts" path="/Users/karol/Documents/Aula/src/presentation/errors/missing-param-error.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="3" count="7" type="stmt"/>
-        <line num="4" count="7" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
       </file>
     </package>
   </project>
