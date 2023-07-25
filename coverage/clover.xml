@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690313654457" clover="3.2.0">
-  <project timestamp="1690313654457" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2" elements="26" coveredelements="26" complexity="0" loc="21" ncloc="21" packages="2" files="2" classes="2"/>
-    <package name="controllers">
-      <metrics statements="18" coveredstatements="18" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="signup.ts" path="/Users/karol/Documents/Aula/src/presentation/controllers/signup.ts">
+<coverage generated="1690315356801" clover="3.2.0">
+  <project timestamp="1690315356801" name="All files">
+    <metrics statements="27" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2" elements="32" coveredelements="26" complexity="0" loc="27" ncloc="27" packages="3" files="4" classes="4"/>
+    <package name="controllers.signup">
+      <metrics statements="22" coveredstatements="18" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="signup-protocols.ts" path="/Users/karol/Documents/Aula/src/presentation/controllers/signup/signup-protocols.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="signup.ts" path="/Users/karol/Documents/Aula/src/presentation/controllers/signup/signup.ts">
         <metrics statements="18" coveredstatements="18" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
         <line num="10" count="9" type="stmt"/>
-        <line num="11" count="9" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
         <line num="15" count="9" type="stmt"/>
-        <line num="16" count="9" type="stmt"/>
-        <line num="22" count="9" type="stmt"/>
-        <line num="23" count="30" type="cond" truecount="1" falsecount="0"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="27" count="5" type="stmt"/>
-        <line num="28" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="31" count="4" type="stmt"/>
-        <line num="32" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="22" count="30" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
       </file>
     </package>
     <package name="errors">
@@ -33,6 +40,14 @@
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="protocols">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/karol/Documents/Aula/src/presentation/protocols/index.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
       </file>
     </package>
   </project>
