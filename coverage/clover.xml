@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690400527334" clover="3.2.0">
-  <project timestamp="1690400527334" name="All files">
-    <metrics statements="41" coveredstatements="35" conditionals="3" coveredconditionals="3" methods="8" coveredmethods="8" elements="52" coveredelements="46" complexity="0" loc="41" ncloc="41" packages="4" files="8" classes="8"/>
-    <package name="controllers.signup">
+<coverage generated="1690402924074" clover="3.2.0">
+  <project timestamp="1690402924075" name="All files">
+    <metrics statements="43" coveredstatements="37" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9" elements="55" coveredelements="49" complexity="0" loc="43" ncloc="43" packages="5" files="9" classes="9"/>
+    <package name="presentation.controllers.signup">
       <metrics statements="23" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="signup-protocols.ts" path="/Users/karol/Documents/Aula/src/presentation/controllers/signup/signup-protocols.ts">
         <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -34,7 +34,7 @@
         <line num="41" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="errors">
+    <package name="presentation.errors">
       <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/Users/karol/Documents/Aula/src/presentation/errors/index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -61,7 +61,7 @@
         <line num="4" count="4" type="stmt"/>
       </file>
     </package>
-    <package name="helpers">
+    <package name="presentation.helpers">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="http-helpers.ts" path="/Users/karol/Documents/Aula/src/presentation/helpers/http-helpers.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
@@ -71,12 +71,20 @@
         <line num="12" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="protocols">
+    <package name="presentation.protocols">
       <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/Users/karol/Documents/Aula/src/presentation/protocols/index.ts">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="email-validator.ts" path="/Users/karol/Documents/Aula/src/utils/email-validator.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
   </project>
