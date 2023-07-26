@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690402924074" clover="3.2.0">
-  <project timestamp="1690402924075" name="All files">
-    <metrics statements="43" coveredstatements="37" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9" elements="55" coveredelements="49" complexity="0" loc="43" ncloc="43" packages="5" files="9" classes="9"/>
+<coverage generated="1690403947083" clover="3.2.0">
+  <project timestamp="1690403947083" name="All files">
+    <metrics statements="44" coveredstatements="38" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9" elements="56" coveredelements="50" complexity="0" loc="44" ncloc="44" packages="5" files="9" classes="9"/>
     <package name="presentation.controllers.signup">
       <metrics statements="23" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="signup-protocols.ts" path="/Users/karol/Documents/Aula/src/presentation/controllers/signup/signup-protocols.ts">
@@ -80,11 +80,12 @@
       </file>
     </package>
     <package name="utils">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="email-validator.ts" path="/Users/karol/Documents/Aula/src/utils/email-validator.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
       </file>
     </package>
   </project>
