@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690397394234" clover="3.2.0">
-  <project timestamp="1690397394235" name="All files">
-    <metrics statements="26" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2" elements="31" coveredelements="27" complexity="0" loc="26" ncloc="26" packages="2" files="3" classes="3"/>
+<coverage generated="1690400527334" clover="3.2.0">
+  <project timestamp="1690400527334" name="All files">
+    <metrics statements="41" coveredstatements="35" conditionals="3" coveredconditionals="3" methods="8" coveredmethods="8" elements="52" coveredelements="46" complexity="0" loc="41" ncloc="41" packages="4" files="8" classes="8"/>
     <package name="controllers.signup">
       <metrics statements="23" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="signup-protocols.ts" path="/Users/karol/Documents/Aula/src/presentation/controllers/signup/signup-protocols.ts">
@@ -35,12 +35,48 @@
       </file>
     </package>
     <package name="errors">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/Users/karol/Documents/Aula/src/presentation/errors/index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="invalid-param-error.ts" path="/Users/karol/Documents/Aula/src/presentation/errors/invalid-param-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+      <file name="missing-param-error.ts" path="/Users/karol/Documents/Aula/src/presentation/errors/missing-param-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+      </file>
+      <file name="server-error.ts" path="/Users/karol/Documents/Aula/src/presentation/errors/server-error.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="helpers">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="http-helpers.ts" path="/Users/karol/Documents/Aula/src/presentation/helpers/http-helpers.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="protocols">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/karol/Documents/Aula/src/presentation/protocols/index.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
       </file>
     </package>
   </project>
